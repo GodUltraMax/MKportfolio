@@ -1,0 +1,39 @@
+.menubar .navbar-toggler span{
+    color:#fff;
+}
+
+/* Apply styles to the active link */
+.router-link-active {
+    color: var(--pClr); /* Change the text color */
+    text-shadow: 0 0 5px var(--pClr), 0 0 20px var(--sClr);
+  }
+  
+.menubar a.nav-link{
+    transition: all .3s ease-out;
+}
+.menubar a.nav-link:hover,
+.menubar .active{
+    color:var(--pClr) !important;
+    text-shadow: 0 0 5px var(--pClr), 0 0 20px var(--sClr);
+}
+.menubar a.nav-link span{
+    color:var(--pClr) !important;
+    font-size: 1.2rem;
+    opacity:0;
+    visibility: hidden;
+    transition: all .3s ease-out;
+}
+.menubar a.nav-link:hover span,
+.menubar a.nav-link.active span{
+    opacity:1;
+    visibility: visible
+}
+header.fixed {
+    position: fixed;
+    top: 0;
+    width:100%;
+    left:0;
+}
+header{
+    transition: position 0.3s;
+}

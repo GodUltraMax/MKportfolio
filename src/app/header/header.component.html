@@ -1,0 +1,35 @@
+<header [class.fixed]="isFixed">
+  <nav class="menubar navbar navbar-expand-lg bg-clr">
+    <div class="container-fluid px-3">
+      <a class="navbar-brand" href="/home"><h1><span>{{'{'}}</span>MK<span>{{'}'}}</span></h1></a>
+      <button class="navbar-toggler"
+						data-bs-toggle="collapse"
+						data-bs-target="#gfgnavbar"> 
+					<span class="navbar-toggler-icon"> 
+					</span> 
+				</button> 
+			<div class="collapse navbar-collapse ps-3" id="gfgnavbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/about" routerLinkActive="active"><span>{{'[ '}}</span>About<span>{{' ]'}}</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/work-experience" routerLinkActive="active"><span>{{'[ '}}</span>Work Experience<span>{{' ]'}}</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" routerLink="/education" routerLinkActive="active"><span>{{'[ '}}</span>Education<span>{{' ]'}}</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/tech-skills" routerLinkActive="active"><span>{{'[ '}}</span>Tech Skills<span>{{' ]'}}</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/skills" routerLinkActive="active"><span>{{'[ '}}</span>Skills<span>{{' ]'}}</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/contact" routerLinkActive="active"><span>{{'[ '}}</span>Contact<span>{{' ]'}}</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

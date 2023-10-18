@@ -1,0 +1,31 @@
+
+.copyrite{
+    background-color:#111;
+}
+.copyrite p{
+    color:#fff;
+}
+.copyrite p a:hover{
+    color:#ff5503 !important;
+}
+footer {
+    background-color: #cbcbcb;
+}
+/*
+footer .navbar-brand {
+    text-shadow: 0 0 5px #0a58ca, 0 0 20px #040404;
+}
+.navbar-brand span{
+    text-shadow: 0 0 0px #ff5503, 0 0 1px #ff5503;
+}
+*/
+.navbar-brand h2{
+    background: #111;
+}
+.top_box a{
+     color:#000;
+     text-decoration: none;
+}
+.top_box a:not(.navbar-brand):hover{
+    text-decoration: underline;
+}
