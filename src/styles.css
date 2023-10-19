@@ -20,7 +20,7 @@ body{
     text-shadow: 0 0 5px var(--pClr), 0 0 20px var(--sClr);
 }
 .overlay_bg{
-    background-color:#11111179
+    background-color:#11111185
 }
 
 @media(min-width:768px){

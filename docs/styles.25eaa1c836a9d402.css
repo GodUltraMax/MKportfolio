@@ -1,4 +1,4 @@
-body{--pClr:#ff5503;--sClr:#0dcaf0}.navbar.bg-clr{background:#111}.nav-link,.navbar-brand{color:var(--sClr)!important;text-shadow:0 0 5px #0a58ca,0 0 20px var(--sClr)}.nav-link{text-transform:uppercase}.navbar-brand span{font-size:2.05rem;color:var(--pClr);text-shadow:0 0 5px var(--pClr),0 0 20px var(--sClr)}.overlay_bg{background-color:#11111179}@media (min-width:768px){.navbar-brand span{font-size:2.7rem}}@media (max-width:768px){html{font-size:14px!important}}@charset "UTF-8";/*!
+body{--pClr:#ff5503;--sClr:#0dcaf0}.navbar.bg-clr{background:#111}.nav-link,.navbar-brand{color:var(--sClr)!important;text-shadow:0 0 5px #0a58ca,0 0 20px var(--sClr)}.nav-link{text-transform:uppercase}.navbar-brand span{font-size:2.05rem;color:var(--pClr);text-shadow:0 0 5px var(--pClr),0 0 20px var(--sClr)}.overlay_bg{background-color:#11111185}@media (min-width:768px){.navbar-brand span{font-size:2.7rem}}@media (max-width:768px){html{font-size:14px!important}}@charset "UTF-8";/*!
 * Bootstrap  v5.3.2 (https://getbootstrap.com/)
 * Copyright 2011-2023 The Bootstrap Authors
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)

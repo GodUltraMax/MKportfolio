@@ -5,3 +5,10 @@
     color:#fff;
     font-size: 4rem;
 }
+.banner h1 pre{
+    color:inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    font-family: inherit;
+}
