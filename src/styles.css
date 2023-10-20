@@ -1,4 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    scroll-behavior: unset !important;
+}
 body{
     --pClr:#ff5503;
     --sClr:#0dcaf0;
